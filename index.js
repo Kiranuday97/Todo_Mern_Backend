@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5000;
 databaseConfiguration();
 
 app.use(cors({ 
- orgin: ["http://localhost:3000/", "https://mern-todoApp-wdu3.onrender.com"]
+ orgin: ["http://localhost:3000/", "https://mern-todoApp.onrender.com"]
 }));
 
 
